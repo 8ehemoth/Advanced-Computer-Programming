@@ -8,8 +8,7 @@ int main(void)
 {
 	int i, num[10], sum = 0;
 
-	for (i = 0; i
-		< 10; i++) {
+	for (i = 0; i< 10; i++) {
 		printf("please input num%d : ", i);
 		scanf("%d", &num[i]);
 		sum = sum + num[i];

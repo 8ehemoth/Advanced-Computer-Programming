@@ -15,3 +15,8 @@ int main(void) {
 
 	return 0;
 }
+
+/*
+C에서 배열 이름은 대부분의 식에서 첫 원소의 주소로 decay돼서 char* 가 됩니다.
+그래서 scanf("%s", name); 은 사실상 scanf("%s", &name[0]); 와 같아 주소가 전달돼요.
+*/
